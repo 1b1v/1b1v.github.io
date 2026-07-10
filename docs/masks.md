@@ -1,5 +1,6 @@
 Around
-Делает обводку указанных блоков на заданное расстояние (максимум 10), включая сами блоки. Удобный аналог маски ~ от FAWE.
+Creates an outline around the specified blocks at a given radius (up to a maximum of 10), while keeping the original blocks. 
+This is a highly convenient and more controllable alternative to the native FAWE `~` (adjacent) mask.
 
 `#ar[block][size]`
-![Нет картинки](images/mask_around.png)
+![Around Mask](images/mask_around.png)

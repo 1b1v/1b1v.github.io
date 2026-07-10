@@ -1,11 +1,11 @@
 Flowers
-Генерирует траву реалистичными полянками вместо хаотичного разброса.
+Generates realistic patches of flowers instead of chaotic, random scattering.
 
 `#flowers[frequency]`
-![Нет картинки](images/pattern_flowers.png)
+![Flowers Pattern](images/pattern_flowers.png)
 
 Grass
-Генерирует полянки трав и цветов.
+Replaces the surface with `grass_block` and adds a `moss_block` border. The angle parameter limits the slope of the applied pattern.
 
-`#grass[frequency]`
-![Нет картинки](images/pattern_grass.png)
+`#grass[id][angle]`
+![Grass Pattern](images/pattern_grass.png)

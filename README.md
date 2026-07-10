@@ -33,10 +33,7 @@ Commit and Push
 Сайт доступен из РФ без VPN
 
 ## Примеры красивых сайтов
-
 https://squidfunk.github.io/mkdocs-material/
-
 https://www.mkdocs.org/
-
 Примеры https://github.com/squidfunk/mkdocs-material/wiki/List-of-community-adaptations
 

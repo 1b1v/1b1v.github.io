@@ -1,5 +1,5 @@
 Brush Plump
-Кисть, создающая булыжник с выпуклой формой.
+A brush that creates a convex rock formation. Perfect for building organic shapes and smooth stone structures.
 
 `/br plump [block] [size]`
-![Нет картинки](images/brush_plump.png)
+![Plump Brush](images/brush_plump.png)

@@ -1,9 +1,8 @@
-Orion — это мощный аддон для FAWE, который делает строительство удобнее. 
-Плагин добавляет новые паттерны для создания органичных ландшафтов, 
-умные маски для быстрой работы с блоками и команды для точной геометрии.
+Orion is a powerful FAWE add-on designed to make building more convenient. 
+The plugin introduces new patterns for creating organic landscapes, smart masks for rapid block manipulation, and commands for precise geometry.
 
-Наш Discord
-   [Ссылка на дискорд]
+Discord
+https://discord.gg/z4eUrbsgh
 
 Boosty
-   [Ссылка на boosty]
+https://boosty.to/almarel

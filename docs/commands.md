@@ -1,5 +1,5 @@
 Polygon
-создает многоугольник с заданным количеством сторон. По дефолту - 8
+Creates a polygon with a specified number of sides. The default value is 8.
 
 `//polygon [block] [number of corners]`
-![Нет картинки](images/command_polygon.png)
+![Polygon Command](images/command_polygon.png)

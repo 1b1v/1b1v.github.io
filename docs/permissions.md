@@ -1,3 +1,3 @@
 Permissions
 
-Список прав доступа будет добавлен позже.
+The full list of permissions will be added here later.
