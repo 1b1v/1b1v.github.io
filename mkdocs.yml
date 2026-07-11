@@ -20,7 +20,6 @@ theme:
         icon: material/brightness-7
         name: Switch to light mode
   features:
-    - navigation.sections # Делает группы в меню в виде красивых блоков
     - navigation.path     # Добавляет "хлебные крошки" под черной шапкой
     - navigation.expand
     - navigation.top
@@ -31,18 +30,16 @@ theme:
 extra_css:
   - stylesheets/custom.css # Подключаем наш файл дизайна
 
-copyright: Copyright &copy; 2024 Almarel Plugins
+copyright: Copyright &copy; 2026 Almarel Plugins
 
 # Группируем меню для энтерпрайз-вида
 nav:
-  - Introduction: index.md
-  - Tools:
-      - Brushes: brushes.md
-      - Masks: masks.md
-      - Patterns: patterns.md
-  - Reference:
-      - Commands: commands.md
-      - Permissions: permissions.md
+  - Community: index.md
+  - Brushes: brushes.md
+  - Masks: masks.md
+  - Patterns: patterns.md
+  - Commands: commands.md
+  - Permissions: permissions.md
 
 markdown_extensions:
   - attr_list
