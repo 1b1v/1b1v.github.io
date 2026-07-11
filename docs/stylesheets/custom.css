@@ -26,8 +26,30 @@
 
 /* ВЫДЕЛЕНИЕ АКТИВНОЙ ВКЛАДКИ */
 .md-nav__link--active {
-  font-weight: 700 !important; /* Только жирный шрифт. Цвет вернется к родному (более темному) */
+  font-weight: 700 !important;
+  position: relative; /* Необходимо для позиционирования линий */
 }
+
+/* Верхняя и нижняя линии с плавным затуханием */
+.md-nav__link--active::before,
+.md-nav__link--active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  /* Градиент: прозрачный -> цвет акцента -> прозрачный */
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--md-accent-fg-color) 25%,
+    var(--md-accent-fg-color) 75%,
+    transparent 100%
+  );
+}
+
+.md-nav__link--active::before { top: 0; }
+.md-nav__link--active::after { bottom: 0; }
 
 
 /* =========================================
@@ -67,10 +89,11 @@
    ТЁМНАЯ ТЕМА (Настройки цвета)
    ========================================= */
 [data-md-color-scheme="slate"] .md-container {
+  /* Делаем левый столбец почти чёрным (#06090e), чтобы он сливался с шапкой */
   background: linear-gradient(
     to right,
-    #0f172a 0%,
-    #0f172a calc(50vw - 30.6rem + 12rem),
+    #06090e 0%,
+    #06090e calc(50vw - 30.6rem + 12rem),
     transparent calc(50vw - 30.6rem + 12rem)
   );
 }
