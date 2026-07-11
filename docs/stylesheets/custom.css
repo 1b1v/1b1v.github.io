@@ -21,10 +21,11 @@
   font-size: 0.85rem !important;
   padding-top: 0.05rem !important;
   padding-bottom: 0.05rem !important;
+  padding-left: 2.5rem !important;
 
-  /* Сдвигаем текст ЕЩЁ СИЛЬНЕЕ вправо (было 1.5rem, стало 3.25rem) */
-  padding-left: 3.25rem !important;
-  transition: all 0.2s ease;
+  /* ФИКС МОРГАНИЯ: Анимируем ТОЛЬКО цвет.
+     Запрещаем браузеру пытаться плавно менять физический размер шрифта! */
+  transition: color 0.2s ease;
 }
 
 /* ВЫДЕЛЕНИЕ АКТИВНОЙ ВКЛАДКИ */
