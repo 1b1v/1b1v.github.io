@@ -46,15 +46,11 @@
   opacity: 0.8;
 
 /* =========================================
-   ЖЕСТКОЕ СКРЫТИЕ СКРОЛЛБАРОВ ЛЕВОГО МЕНЮ
+   ФИКС МОРГАНИЯ В ЯНДЕКС.БРАУЗЕРЕ
    ========================================= */
-.md-sidebar--primary,
-.md-sidebar--primary * {
-  scrollbar-width: none !important; /* Убиваем скроллбар в Firefox */
-}
-.md-sidebar--primary::-webkit-scrollbar,
-.md-sidebar--primary *::-webkit-scrollbar {
-  display: none !important; /* Убиваем скроллбар в Chrome/Safari/Edge */
+/* Жестко запрещаем контейнеру прокручиваться. Нет прокрутки = нет ползунка. */
+.md-sidebar__scrollwrap {
+  overflow-y: hidden !important;
 }
 
   /* Регулируем длину свечения процентами */
