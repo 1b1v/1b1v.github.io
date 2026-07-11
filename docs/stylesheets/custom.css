@@ -5,37 +5,42 @@
   }
 
   /*
-   * 1. Убираем скругления, приклеиваем меню к шапке вплотную (без margin).
-   * 2. Усиливаем контраст (плотный серо-голубой цвет).
+   * 1. Убираем любые отступы, чтобы меню прижалось к черной шапке вплотную
    */
   .md-sidebar--primary {
-    background-color: #e2e8f0;
-    padding-top: 1.5rem; /* Внутренний отступ текста от черной шапки */
-    padding-bottom: 1.5rem;
+    margin-top: 0 !important;
+    padding-top: 1.5rem !important;
   }
 
   /*
-   * 3. УМНОЕ РАЗДЕЛЕНИЕ ЭКРАНА (Full-Bleed):
-   * Закрашиваем всё пустое пространство слева от столбца до самого края монитора.
+   * 2. ИДЕАЛЬНЫЙ TWO-TONE ФОН (Разделение до самого низа)
+   * Мы не красим блок с текстом. Мы красим САМ ФОН страницы под меню.
+   * Контейнер .md-container идет от черной шапки до подвала.
+   * Linear-gradient рисует жесткую вертикальную линию на расстоянии 20rem (ширина меню)
+   * плюс половина пустого пространства экрана.
    */
-  .md-sidebar--primary::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 100%;
-    width: 50vw; /* Закрашивает половину экрана влево */
-    background-color: inherit; /* Автоматически берет цвет из блока выше */
+  .md-container {
+    background: linear-gradient(
+      to right,
+      #e2e8f0 0%,
+      #e2e8f0 calc(50vw - 30.6rem + 12rem), /* Точный расчет границы левого меню в MkDocs */
+      transparent calc(50vw - 30.6rem + 12rem)
+    );
   }
 
-  /* Отодвигаем основной текст от левой цветной зоны, чтобы он дышал */
+  /* Отодвигаем основной текст (статью) от границы цвета */
   .md-content {
     border-left: none;
-    padding-left: 2rem;
+    padding-left: 3rem;
   }
 }
 
-/* Настройка контрастного цвета для ТЁМНОЙ ТЕМЫ */
-[data-md-color-scheme="slate"] .md-sidebar--primary {
-  background-color: #0f172a; /* Глубокий темно-синий цвет, отличный контраст */
+/* Настройка цвета для ТЁМНОЙ ТЕМЫ */
+[data-md-color-scheme="slate"] .md-container {
+  background: linear-gradient(
+    to right,
+    #0f172a 0%,
+    #0f172a calc(50vw - 30.6rem + 12rem),
+    transparent calc(50vw - 30.6rem + 12rem)
+  );
 }
