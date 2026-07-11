@@ -18,9 +18,11 @@
    ========================================= */
 .md-nav__link {
   font-size: 0.85rem !important;
-  /* Максимально сжимаем отступы (было 0.15rem, стало 0.05rem) */
   padding-top: 0.05rem !important;
   padding-bottom: 0.05rem !important;
+
+  /* СОЗДАЕМ МЕСТО ДЛЯ ЛИНИИ: сдвигаем весь текст меню чуть правее */
+  padding-left: 1.5rem !important;
   transition: all 0.2s ease;
 }
 
@@ -30,22 +32,22 @@
   position: relative;
 }
 
-/* Пробиваем левую границу и центрируем линию относительно слова */
+/* Идеально отцентрированные линии под словом */
 .md-nav__link--active::before,
 .md-nav__link--active::after {
   content: "";
   position: absolute;
-  left: -1.5rem;   /* Вытаскиваем линию за "невидимую стену" влево */
-  width: 12rem;    /* Жесткая длина линии */
+  left: 0;        /* Линия стартует от невидимой стены... */
+  width: 10rem;   /* Короткая длина ровно для обхвата слова */
   height: 1px;
   opacity: 0.8;
 
   background: linear-gradient(
     to right,
-    transparent 0%,
-    rgba(20, 80, 180, 0.8) 25%, /* Насыщенность начинается точно под словом */
+    transparent 0%,           /* ...стартует прозрачной в пустом пространстве... */
+    rgba(20, 80, 180, 0.8) 25%, /* ...становится яркой ровно под центром слова... */
     rgba(20, 80, 180, 0.8) 60%,
-    transparent 100%
+    transparent 100%          /* ...и мягко растворяется справа. */
   );
 }
 
