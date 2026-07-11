@@ -30,24 +30,27 @@
 .md-nav__link--active {
   font-weight: 700 !important;
   position: relative;
+  /* Предотвращаем любые вылезания за пределы слова */
+  overflow: hidden;
 }
 
-/* Настройка удлиненной линии */
+/* Настройка адаптивной линии (без жесткой ширины) */
 .md-nav__link--active::before,
 .md-nav__link--active::after {
   content: "";
   position: absolute;
   left: 0;
-  width: 12rem;   /* Увеличили длину линии под новый отступ */
+  right: 0;       /* Линия занимает ровно 100% контейнера. Ползунок исчезнет! */
   height: 1px;
   opacity: 0.8;
 
+  /* Регулируем длину свечения процентами */
   background: linear-gradient(
     to right,
-    transparent 0%,           /* Долгое плавное появление слева */
-    rgba(20, 80, 180, 0.8) 25%, /* Насыщенность начинается ровно под началом слова (на ~3rem) */
-    rgba(20, 80, 180, 0.8) 60%,
-    transparent 100%          /* Плавное растворение справа */
+    transparent 0%,
+    rgba(20, 80, 180, 0.8) 30%, /* Центр слова */
+    rgba(20, 80, 180, 0.8) 70%, /* Конец слова */
+    transparent 100%
   );
 }
 
