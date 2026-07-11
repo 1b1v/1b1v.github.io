@@ -6,8 +6,6 @@ site_url: https://almarelplugins.github.io/orion-docs/
 theme:
   name: material
   language: en
-  # logo: images/logo.png    # Раскомментируй, когда положишь logo.png в папку images
-  # favicon: images/logo.png # Раскомментируй, когда положишь logo.png в папку images
   palette:
     - scheme: default
       primary: black
@@ -22,26 +20,34 @@ theme:
         icon: material/brightness-7
         name: Switch to light mode
   features:
+    - navigation.sections # Делает группы в меню в виде красивых блоков
+    - navigation.path     # Добавляет "хлебные крошки" под черной шапкой
     - navigation.expand
-    - navigation.top # Добавит кнопку "Наверх" при скролле длинных страниц
+    - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
 
+extra_css:
+  - stylesheets/custom.css # Подключаем наш файл дизайна
+
 copyright: Copyright &copy; 2024 Almarel Plugins
 
+# Группируем меню для энтерпрайз-вида
 nav:
-  - Community: index.md
-  - Brushes: brushes.md
-  - Masks: masks.md
-  - Patterns: patterns.md
-  - Commands: commands.md
-  - Permissions: permissions.md
+  - Introduction: index.md
+  - Tools:
+      - Brushes: brushes.md
+      - Masks: masks.md
+      - Patterns: patterns.md
+  - Reference:
+      - Commands: commands.md
+      - Permissions: permissions.md
 
 markdown_extensions:
   - attr_list
-  - admonition # Включает красивые блоки с предупреждениями и инфо
-  - pymdownx.details # Позволяет делать раскрывающиеся блоки
+  - admonition
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

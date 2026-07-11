@@ -1,0 +1,17 @@
+/* Скрываем дублирующийся заголовок в левом меню ТОЛЬКО на ПК (оставляем для смартфонов) */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary > .md-nav__title {
+    display: none;
+  }
+
+  /* Добавляем тонкую визуальную линию между левым меню и основным текстом */
+  .md-sidebar--primary {
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+    padding-right: 10px;
+  }
+}
+
+/* Настраиваем цвет разделительной линии для Тёмной темы */
+[data-md-color-scheme="slate"] .md-sidebar--primary {
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
