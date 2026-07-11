@@ -27,30 +27,31 @@
 /* ВЫДЕЛЕНИЕ АКТИВНОЙ ВКЛАДКИ */
 .md-nav__link--active {
   font-weight: 700 !important;
-  position: relative; /* Необходимо для позиционирования линий */
+  position: relative;
 }
 
-/* Верхняя и нижняя линии с плавным затуханием */
+/* Верхняя и нижняя линии: визуально тоньше, темнее и смещены влево */
 .md-nav__link--active::before,
 .md-nav__link--active::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
+  left: -0.5rem; /* Сдвигаем начало линии левее (ближе к центру слова) */
+  right: 1.5rem; /* Обрезаем длинный хвост справа */
   height: 1px;
-  /* Градиент: прозрачный -> цвет акцента -> прозрачный */
+  opacity: 0.7;  /* Хак: делает 1px линию визуально тоньше и мягче */
+
+  /* Градиент: глубокий тёмно-синий цвет */
   background: linear-gradient(
     to right,
     transparent 0%,
-    var(--md-accent-fg-color) 25%,
-    var(--md-accent-fg-color) 75%,
+    rgba(20, 80, 180, 0.8) 15%,
+    rgba(20, 80, 180, 0.8) 75%,
     transparent 100%
   );
 }
 
 .md-nav__link--active::before { top: 0; }
 .md-nav__link--active::after { bottom: 0; }
-
 
 /* =========================================
    TWO-TONE LAYOUT (Разделение экрана на ПК)
