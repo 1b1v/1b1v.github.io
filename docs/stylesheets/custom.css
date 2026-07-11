@@ -45,6 +45,15 @@
   height: 1px;
   opacity: 0.8;
 
+/* Убираем моргание вертикального скроллбара внутри левого меню при переключении вкладок.
+   Скрываем его визуально, но оставляем возможность скроллить колесиком мыши (для будущего) */
+.md-sidebar__scrollwrap {
+  scrollbar-width: none; /* Для Firefox */
+}
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  display: none; /* Для Chrome, Edge, Safari */
+}
+
   /* Регулируем длину свечения процентами */
   background: linear-gradient(
     to right,
