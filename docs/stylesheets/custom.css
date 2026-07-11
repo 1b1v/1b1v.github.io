@@ -4,9 +4,23 @@
     display: none;
   }
 
-  /* Элегантная разделительная линия, привязанная к тексту (работает надежнее) */
+  /* Убираем старую линию и делаем отступ для текста */
   .md-content {
-    border-left: 1px solid var(--md-default-fg-color--lightest);
-    padding-left: 1.5rem; /* Отступ текста от линии */
+    border-left: none;
+    padding-left: 2rem;
   }
+
+  /* Дизайн левого меню (СВЕТЛАЯ ТЕМА) */
+  .md-sidebar--primary {
+    background-color: #f4f6f8; /* Элегантный серо-белый цвет с холодным оттенком */
+    border-radius: 12px;       /* Мягкое скругление углов панели */
+    padding: 1rem;             /* Внутренние отступы, чтобы текст дышал */
+    margin-top: 1rem;          /* Легкий отступ от черной шапки */
+    height: fit-content;       /* Панель не тянется бесконечно вниз */
+  }
+}
+
+/* Дизайн левого меню (ТЁМНАЯ ТЕМА) */
+[data-md-color-scheme="slate"] .md-sidebar--primary {
+  background-color: #161b22; /* Цвет в стиле GitHub Dark Mode */
 }
