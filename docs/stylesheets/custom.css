@@ -21,8 +21,8 @@
   padding-top: 0.05rem !important;
   padding-bottom: 0.05rem !important;
 
-  /* СОЗДАЕМ МЕСТО ДЛЯ ЛИНИИ: сдвигаем весь текст меню чуть правее */
-  padding-left: 1.5rem !important;
+  /* Сдвигаем текст ЕЩЁ СИЛЬНЕЕ вправо (было 1.5rem, стало 2.5rem) */
+  padding-left: 2.5rem !important;
   transition: all 0.2s ease;
 }
 
@@ -32,22 +32,22 @@
   position: relative;
 }
 
-/* Идеально отцентрированные линии под словом */
+/* Настройка удлиненной линии */
 .md-nav__link--active::before,
 .md-nav__link--active::after {
   content: "";
   position: absolute;
-  left: 0;        /* Линия стартует от невидимой стены... */
-  width: 10rem;   /* Короткая длина ровно для обхвата слова */
+  left: 0;
+  width: 12rem;   /* Увеличили длину линии под новый отступ */
   height: 1px;
   opacity: 0.8;
 
   background: linear-gradient(
     to right,
-    transparent 0%,           /* ...стартует прозрачной в пустом пространстве... */
-    rgba(20, 80, 180, 0.8) 25%, /* ...становится яркой ровно под центром слова... */
+    transparent 0%,           /* Долгое плавное появление слева */
+    rgba(20, 80, 180, 0.8) 25%, /* Насыщенность начинается ровно под началом слова (на ~3rem) */
     rgba(20, 80, 180, 0.8) 60%,
-    transparent 100%          /* ...и мягко растворяется справа. */
+    transparent 100%          /* Плавное растворение справа */
   );
 }
 
