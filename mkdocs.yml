@@ -20,7 +20,6 @@ theme:
         icon: material/brightness-7
         name: Switch to light mode
   features:
-    - navigation.path     # Добавляет "хлебные крошки" под черной шапкой
     - navigation.expand
     - navigation.top
     - search.suggest

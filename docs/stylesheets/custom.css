@@ -4,10 +4,9 @@
     display: none;
   }
 
-  /* Элегантная разделительная линия */
-  /* Используем var(--md-default-fg-color--lightest), чтобы цвет сам менялся при переключении светлой/темной темы */
-  .md-sidebar--primary {
-    border-right: 1px solid var(--md-default-fg-color--lightest) !important;
-    padding-right: 1.5rem;
+  /* Элегантная разделительная линия, привязанная к тексту (работает надежнее) */
+  .md-content {
+    border-left: 1px solid var(--md-default-fg-color--lightest);
+    padding-left: 1.5rem; /* Отступ текста от линии */
   }
 }
