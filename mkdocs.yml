@@ -1,9 +1,13 @@
 site_name: Orion Documentation
+site_description: Official documentation for Orion - Advanced FAWE Add-on.
+site_author: Almarel
 site_url: https://almarelplugins.github.io/orion-docs/
 
 theme:
   name: material
   language: en
+  # logo: images/logo.png    # Раскомментируй, когда положишь logo.png в папку images
+  # favicon: images/logo.png # Раскомментируй, когда положишь logo.png в папку images
   palette:
     - scheme: default
       primary: black
@@ -18,11 +22,13 @@ theme:
         icon: material/brightness-7
         name: Switch to light mode
   features:
-    - navigation.tabs
     - navigation.expand
+    - navigation.top # Добавит кнопку "Наверх" при скролле длинных страниц
     - search.suggest
     - search.highlight
     - content.code.copy
+
+copyright: Copyright &copy; 2024 Almarel Plugins
 
 nav:
   - Community: index.md
@@ -34,6 +40,8 @@ nav:
 
 markdown_extensions:
   - attr_list
+  - admonition # Включает красивые блоки с предупреждениями и инфо
+  - pymdownx.details # Позволяет делать раскрывающиеся блоки
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
