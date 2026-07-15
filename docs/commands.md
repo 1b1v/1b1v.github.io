@@ -1,7 +1,9 @@
 Polygon
 Creates a polygon with a specified number of sides. The default value is 8.
 
-!!! info "//polygon [block] [number of corners]"
+```text
+//polygon [block] [number of corners]
+```
 
 `Permission: orion.selection.polygon`
 
