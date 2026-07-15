@@ -7,8 +7,8 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 ![Flowers Pattern](images/pattern_flowers.png)
 `orion.pattern.flowers`
 
-<br>
 ---
+<br>
 
 Grass
 Replaces the surface with `grass_block` and adds a `moss_block` border. The angle parameter limits the slope of the applied pattern.
