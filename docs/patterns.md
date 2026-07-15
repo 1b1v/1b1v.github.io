@@ -7,6 +7,7 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 ![Flowers Pattern](images/pattern_flowers.png)
 `orion.pattern.flowers`
 
+<br>
 ---
 
 Grass
