@@ -1,26 +1,25 @@
 
 ---
-Here you can find a complete list of all permission nodes for the Orion plugin.
-Detailed information about how each feature works can be found in their respective documentation sections.
+Full list of Orion permission nodes. See specific sections for usage details.
 
 ```text
 Brushes
 ```
 `orion.brush.plump`
-
+<br>
 
 ```text
 Masks
 ```
 `orion.mask.around`
-
+<br>
 
 ```text
 Patterns
 ```
 `orion.pattern.flowers`
 `orion.pattern.grass`
-
+<br>
 
 ```text
 Commands
