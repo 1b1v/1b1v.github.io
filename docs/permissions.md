@@ -3,7 +3,9 @@
 Here you can find a complete list of all permission nodes for the Orion plugin.
 Detailed information about how each feature works can be found in their respective documentation sections.
 
-#Brushes
+```text
+Brushes
+```
 `orion.brush.plump`
 
 Masks
