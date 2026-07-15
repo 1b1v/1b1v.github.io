@@ -1,3 +1,5 @@
+
+---
 Flowers
 Generates realistic patches of flowers instead of chaotic, random scattering.
 
@@ -5,7 +7,7 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 #flowers[frequency]
 ```
 ![Flowers Pattern](images/pattern_flowers.png)
-`orion.pattern.flowers`
+`Permissions: orion.pattern.flowers`
 
 ---
 <br>
