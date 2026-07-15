@@ -8,12 +8,21 @@ Brushes
 ```
 `orion.brush.plump`
 
+
+```text
 Masks
+```
 `orion.mask.around`
 
+
+```text
 Patterns
+```
 `orion.pattern.flowers`
 `orion.pattern.grass`
 
+
+```text
 Commands
+```
 `orion.selection.polygon`
