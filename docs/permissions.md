@@ -3,15 +3,15 @@
 Here you can find a complete list of all permission nodes for the Orion plugin.
 Detailed information about how each feature works can be found in their respective documentation sections.
 
-## Brushes
+Brushes
 `orion.brush.plump`
 
-## Masks
+Masks
 `orion.mask.around`
 
-## Patterns
+Patterns
 `orion.pattern.flowers`
 `orion.pattern.grass`
 
-## Commands
+Commands
 `orion.selection.polygon`
