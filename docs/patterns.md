@@ -30,5 +30,5 @@ Ridged Multifractal (ridgedmulti) is a procedural noise pattern that generates s
 ```text
 #ridgedmulti[size][id]
 ```
-![Ridgedmulti Pattern](images/patterns/grass.png)
+![Ridgedmulti Pattern](images/patterns/ridgedmulti.png)
 `orion.pattern.ridgedmulti`
