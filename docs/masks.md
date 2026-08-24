@@ -8,5 +8,5 @@ This is a highly convenient and more controllable alternative to the native FAWE
 #ar[block][size]
 ```
 
-![Around Mask](images/mask_around.png)
+![Around Mask](images/masks/around.png)
 `orion.mask.around`
