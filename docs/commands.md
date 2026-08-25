@@ -14,7 +14,7 @@ Creates a polygon with a specified number of sides. The default value is 8.
 <br>
 
 Frame
-....
+Creates a wireframe outline along the borders of the selection.
 
 ```text
 //frame [block]
@@ -27,7 +27,7 @@ Frame
 <br>
 
 Platform
-Creates a flat platform or surface at the bottom of your selection.
+Generates a flat horizontal platform within the selection.
 
 ```text
 //plat [block] [size]
@@ -40,7 +40,7 @@ Creates a flat platform or surface at the bottom of your selection.
 <br>
 
 Center Vertical
-Similar to the //center command, but creates a vertical one-block column running from the bottom to the top of the selection.
+Finds the center of the selection and creates a vertical 1-block column from the bottom to the top.
 
 ```text
 //cver [block]
@@ -53,7 +53,7 @@ Similar to the //center command, but creates a vertical one-block column running
 <br>
 
 Onion
-Generates an onion-shaped dome or structure within the selected area.
+Creates an onion-shaped dome or organic structure inside the selection.
 
 ```text
 //onion [block]
@@ -66,7 +66,7 @@ Generates an onion-shaped dome or structure within the selected area.
 <br>
 
 Liana
-Creates a hanging vine or liana, with the bend intensity controlled by the sagging parameter.
+Generates a hanging liana or vine, where the curvature is determined by the sagging argument.
 
 ```text
 //liana [sagging]
