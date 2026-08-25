@@ -27,7 +27,7 @@ Frame
 <br>
 
 Platform
-....
+Creates a flat platform or surface at the bottom of your selection.
 
 ```text
 //plat [block] [size]
@@ -40,7 +40,7 @@ Platform
 <br>
 
 Center Vertical
-....
+Similar to the //center command, but creates a vertical one-block column running from the bottom to the top of the selection.
 
 ```text
 //cver [block]
@@ -53,7 +53,7 @@ Center Vertical
 <br>
 
 Onion
-....
+Generates an onion-shaped dome or structure within the selected area.
 
 ```text
 //onion [block]
@@ -66,11 +66,11 @@ Onion
 <br>
 
 Liana
-....
+Creates a hanging vine or liana, with the bend intensity controlled by the sagging parameter.
 
 ```text
 //liana [sagging]
 ```
 
-![Onion Command](images/commands/liana.png)
+![Liana Command](images/commands/liana.png)
 `Permission: orion.selection.liana`
