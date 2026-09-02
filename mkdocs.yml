@@ -1,7 +1,7 @@
 site_name: Orion Documentation
-site_description: Official documentation for Orion - Advanced FAWE Add-on.
+site_description: Official documentation for 1b1v - Advanced FAWE Add-on.
 site_author: Almarel
-site_url: https://almarelplugins.github.io/orion-docs/
+site_url: https://1b1v.github.io/
 
 theme:
   name: material
