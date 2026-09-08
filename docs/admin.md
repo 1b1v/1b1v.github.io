@@ -38,9 +38,9 @@ Masks
 ```text
 Patterns
 ```
-1b1v.pattern.flowers <br>
-1b1v.pattern.grass <br>
-1b1v.pattern.ridgedmulti
+`1b1v.pattern.flowers` <br>
+`1b1v.pattern.grass` <br>
+`1b1v.pattern.ridgedmulti`
 <br>
 
 ---
@@ -49,18 +49,18 @@ Patterns
 ```text
 Commands
 ```
-1b1v.selection.polygon <br>
-1b1v.selection.frame <br>
-1b1v.selection.platform <br>
-1b1v.selection.centervertical <br>
-1b1v.selection.onion <br>
-1b1v.curve.liana
+`1b1v.selection.polygon` <br>
+`1b1v.selection.frame` <br>
+`1b1v.selection.platform` <br>
+`1b1v.selection.centervertical` <br>
+`1b1v.selection.onion` <br>
+`1b1v.selection.liana`
 
 ---
 <br>
 
 ```text
-Basic
+Basic commands
 ```
 
 `1b1v.use` <br>
