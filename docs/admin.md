@@ -1,50 +1,50 @@
 # Administration & Permissions
 
-Administrative commands and permission nodes for **1b1v Lite**.
+Administrative commands, access tiers, and individual permissions for **1b1v Lite**.
 
 ---
 
-## Admin Commands
+### Admin Commands
 
-Commands for server administration and plugin management:
+Commands for plugin administration and maintenance:
 
 * `/1b1v reload` — Reloads configuration files and caches without restarting the server.  
   *Permission:* `1b1v.admin.reload`
-* `/1b1v notice` — Manages in-game login notifications, critical alerts, and preset synchronization.  
+* `/1b1v notice` — Manages in-game login notifications, alerts, and asset synchronization.  
   *Permission:* `1b1v.admin.notice`
 
 ---
 
-## Access Tiers
+### Access Tiers
 
-Cumulative permission bundles for quick LuckPerms configuration. Each tier automatically includes all permissions from preceding tiers.
+Cumulative permission bundles for quick LuckPerms group setup. Each tier includes all permissions from the tiers above it.
 
-| Tier Node | Recommended Group | Description |
-| :--- | :--- | :--- |
-| `1b1v.basic` | **Default / Builder** | Core GUI access, basic generation tools, frame/polygon shapes, and simple patterns. |
-| `1b1v.intermediate` | **Architect / Pro** | Includes `Basic` + procedural brushes (plump, crystal), lianas, grass pattern, and proximity mask. |
-| `1b1v.admin` | **Server Admin** | Grants full access to all features and administrative commands. |
+| **Tier Node** | **Description** | **Recommended Group** |
+| :--- | :--- | :---: |
+| `1b1v.basic` | Access to core GUI, basic shapes, generation commands, and simple patterns. | **Default / Builder** |
+| `1b1v.intermediate` | Includes `Basic` + procedural brushes (plump, crystal), lianas, grass pattern, and proximity mask. | **Architect / Pro** |
+| `1b1v.admin` | Full access to all features and administrative management commands. | **Server Admin** |
 
 ---
 
-## Permissions
+### Permissions
 
 All individual permission nodes available in 1b1v Lite.
 
-| Permission | Command / Syntax | Tier | Description |
-| :--- | :--- | :---: | :--- |
-| `1b1v.use` | `/1b1v` | `Basic` | Access to the main 1b1v GUI menu and base commands. |
-| `1b1v.generation.platform` | `//platform` | `Basic` | Generates a flat square platform or plane. |
-| `1b1v.generation.onion` | `//onion` | `Basic` | Generates a droplet/onion procedural shape. |
-| `1b1v.region.frame` | `//frame` | `Basic` | Generates a wireframe along the edges of the selection. |
-| `1b1v.region.polygon` | `//polygon` | `Basic` | Fills the selection with a polygonal shape. |
-| `1b1v.region.centervertical` | `//centerver` | `Basic` | Places a vertical pillar through the center of the selection. |
-| `1b1v.pattern.ridgedmulti` | `#ridgedmulti` | `Basic` | Multi-fractal procedural noise pattern modifier. |
-| `1b1v.pattern.flowers` | `#flowers` | `Basic` | Procedural flower generation pattern. |
-| `1b1v.brush.plump` | `/br plump` | `Intermediate` | Procedural brush for thickening and volumizing shapes. |
-| `1b1v.brush.crystal` | `/br crystal` | `Intermediate` | Procedural crystal cluster brush. |
-| `1b1v.curve.liana` | `//liana` | `Intermediate` | Generates hanging lianas/vines along a curve. |
-| `1b1v.pattern.grass` | `#grass` | `Intermediate` | Procedural surface vegetation pattern. |
-| `1b1v.mask.around` | `#around` | `Intermediate` | Proximity mask detecting blocks adjacent to existing surfaces. |
-| `1b1v.admin.reload` | `/1b1v reload` | `Admin` | Allows reloading plugin configurations and caches. |
-| `1b1v.admin.notice` | `/1b1v notice` | `Admin` | Allows viewing update alerts and syncing assets. |
+| **Permission** | **Description** | **Tier** |
+| :--- | :--- | :---: |
+| `1b1v.use` | `/1b1v` — Access to the main 1b1v GUI menu and base commands. | `Basic` |
+| `1b1v.generation.platform` | `//platform` — Generates a flat square platform or plane. | `Basic` |
+| `1b1v.generation.onion` | `//onion` — Generates a droplet or onion procedural shape. | `Basic` |
+| `1b1v.region.frame` | `//frame` — Generates a wireframe along the edges of the selection. | `Basic` |
+| `1b1v.region.polygon` | `//polygon` | `Basic` |
+| `1b1v.region.centervertical` | `//centerver` — Places a vertical pillar through the center of the selection. | `Basic` |
+| `1b1v.pattern.ridgedmulti` | `#ridgedmulti` — Multi-fractal procedural noise pattern modifier. | `Basic` |
+| `1b1v.pattern.flowers` | `#flowers` — Generates procedural flower palettes. | `Basic` |
+| `1b1v.brush.plump` | `/br plump` — Procedural brush for thickening and volumizing shapes. | `Intermediate` |
+| `1b1v.brush.crystal` | `/br crystal` — Procedural crystal cluster brush. | `Intermediate` |
+| `1b1v.curve.liana` | `//liana` — Generates procedural hanging lianas/vines along a curve. | `Intermediate` |
+| `1b1v.pattern.grass` | `#grass` — Generates procedural surface vegetation and grass layers. | `Intermediate` |
+| `1b1v.mask.around` | `#around` — Proximity mask detecting blocks adjacent to existing geometry. | `Intermediate` |
+| `1b1v.admin.reload` | `/1b1v reload` — Allows reloading plugin configurations and caches. | `Admin` |
+| `1b1v.admin.notice` | `/1b1v notice` — Allows managing update alerts and syncing assets. | `Admin` |
