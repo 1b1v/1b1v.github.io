@@ -21,9 +21,9 @@ Cumulative permission bundles for quick LuckPerms group setup. Each tier include
 
 | **Tier Node** | **Description** | **Recommended Group** |
 | :--- | :--- | :---: |
-| `1b1v.basic` | Access to core GUI, basic shapes, generation commands, and simple patterns. | **Default / Builder** |
-| `1b1v.intermediate` | Includes `Basic` + procedural brushes (plump, crystal), lianas, grass pattern, and proximity mask. | **Architect / Pro** |
-| `1b1v.admin` | Full access to all features and administrative management commands. | **Server Admin** |
+| `1b1v.basic` | Access to core GUI, basic shapes, generation commands, and simple patterns. | Basic |
+| `1b1v.intermediate` | Includes `Basic` + procedural brushes (plump, crystal), lianas, grass pattern, and proximity mask. | <nobr>Intermediate</nobr> |
+| `1b1v.admin` | Full access to all features and administrative management commands. | Admin |
 
 ---
 
