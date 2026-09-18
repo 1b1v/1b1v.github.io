@@ -8,7 +8,7 @@ A brush that creates a convex rock formation. Perfect for building organic shape
 ```
 
 ![Plump Brush](images/brushes/plump.png)
-`Permission: 1b1v.brush.plump`
+**Permission:** `1b1v.brush.plump` *(Intermediate)*
 
 
 ---
