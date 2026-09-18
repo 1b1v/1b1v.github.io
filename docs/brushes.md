@@ -8,7 +8,7 @@ A brush that creates a convex rock formation. Perfect for building organic shape
 ```
 
 ![Plump Brush](images/brushes/plump.png)
-`Permission (Intermediate): 1b1v.brush.plump`
+`Intermediate Permission: 1b1v.brush.plump`
 
 
 ---
@@ -20,4 +20,4 @@ A brush that creates sharp, geometric crystal clusters. Perfect for building cry
 ```
 
 ![Crystal Brush](images/brushes/crystal.png)
-`Permission: 1b1v.brush.crystal`
+`Intermediate Permission: 1b1v.brush.crystal`

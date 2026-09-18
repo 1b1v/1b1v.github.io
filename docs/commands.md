@@ -47,7 +47,7 @@ Finds the center of the selection and creates a vertical 1-block column from the
 ```
 
 ![Frame Command](images/commands/centervertical.png)
-`Permission: 1b1v.selection.centervertical`
+`Basic Permission: 1b1v.region.centervertical`
 
 ---
 <br>
@@ -60,7 +60,7 @@ Creates an onion-shaped dome or organic structure inside the selection.
 ```
 
 ![Onion Command](images/commands/onion.png)
-`Permission: 1b1v.selection.onion`
+`Basic Permission: 1b1v.generation.platform`
 
 ---
 <br>
@@ -73,7 +73,7 @@ Generates a hanging liana or vine, where the curvature is determined by the sagg
 ```
 
 ![Liana Command](images/commands/liana.png)
-`Permission: 1b1v.curve.liana`
+`Intermediate Permission: 1b1v.curve.liana`
 
 ---
 <br>
@@ -85,4 +85,4 @@ Provides a link to the documentation plugin.
 //1b1v wiki
 ```
 
-`Permission: 1b1v.wiki`
+`Basic Permission: 1b1v.use`
