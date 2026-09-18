@@ -15,4 +15,4 @@ Dependency: FastAsyncWorldEdit (FAWE) 2.13+
 
 [ :fontawesome-brands-discord: Join our Discord ](https://discord.gg/5WmnrBXY9J){ .md-button .md-button--primary }
 
-[ :material-heart: Support on Boosty ](https://boosty.to/almarel){ .md-button }
+<!-- [ :material-heart: Support on Boosty ](https://boosty.to/almarel){ .md-button } -->
