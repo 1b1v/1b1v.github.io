@@ -1,5 +1,7 @@
 
 ---
+<div class="feature-lite" markdown>
+
 Flowers
 Generates realistic patches of flowers instead of chaotic, random scattering.
 
@@ -32,3 +34,5 @@ Ridged Multifractal (ridgedmulti) is a procedural noise pattern that generates s
 ```
 ![Ridgedmulti Pattern](images/patterns/ridgedmulti.png)
 `Basic Permissions: 1b1v.pattern.ridgedmulti`
+
+</div>
