@@ -13,11 +13,11 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 
 </div>
 
+<br>
 ---
 
 <div class="feature-pro" markdown>
 
-<br>
 Grass
 Replaces the surface with `grass_block` and adds a `moss_block` border. The angle parameter limits the slope of the applied pattern.
 
@@ -29,11 +29,10 @@ Replaces the surface with `grass_block` and adds a `moss_block` border. The angl
 
 </div>
 
+<br>
 ---
 
 <div class="feature-lite" markdown>
-
-<br>
 
 Ridgedmulti
 Ridged Multifractal (ridgedmulti) is a procedural noise pattern that generates sharp, narrow ridges separated by smooth, concave valleys
