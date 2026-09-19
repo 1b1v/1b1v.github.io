@@ -11,10 +11,10 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 ![Flowers Pattern](images/patterns/flowers.png)
 `Basic Permissions: 1b1v.pattern.flowers`
 
+</div>
+
 ---
 <br>
-
-</div>
 
 <div class="feature-pro" markdown>
 
@@ -29,9 +29,10 @@ Replaces the surface with `grass_block` and adds a `moss_block` border. The angl
 
 </div>
 
+---
+
 <div class="feature-lite" markdown>
 
----
 <br>
 
 Ridgedmulti
