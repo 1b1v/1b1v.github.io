@@ -14,6 +14,10 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 ---
 <br>
 
+</div>
+
+<div class="feature-pro" markdown>
+
 Grass
 Replaces the surface with `grass_block` and adds a `moss_block` border. The angle parameter limits the slope of the applied pattern.
 
@@ -22,6 +26,10 @@ Replaces the surface with `grass_block` and adds a `moss_block` border. The angl
 ```
 ![Grass Pattern](images/patterns/grass.png)
 `Intermediate Permissions: 1b1v.pattern.grass`
+
+</div>
+
+<div class="feature-lite" markdown>
 
 ---
 <br>
