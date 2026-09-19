@@ -14,6 +14,7 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 </div>
 
 <br>
+
 ---
 
 <div class="feature-pro" markdown>
@@ -30,6 +31,7 @@ Replaces the surface with `grass_block` and adds a `moss_block` border. The angl
 </div>
 
 <br>
+
 ---
 
 <div class="feature-lite" markdown>
