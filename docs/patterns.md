@@ -14,10 +14,10 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 </div>
 
 ---
-<br>
 
 <div class="feature-pro" markdown>
 
+<br>
 Grass
 Replaces the surface with `grass_block` and adds a `moss_block` border. The angle parameter limits the slope of the applied pattern.
 
