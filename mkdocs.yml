@@ -43,6 +43,7 @@ nav:
 markdown_extensions:
   - attr_list
   - admonition
+  - md_in_html
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji

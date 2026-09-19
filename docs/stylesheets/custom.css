@@ -103,3 +103,13 @@
     transparent calc(50vw - 30.6rem + 12rem)
   );
 }
+
+.feature-lite {
+  border-left: 3px solid rgba(150, 150, 150, 0.35);
+  padding-left: 1rem;
+}
+
+.feature-pro {
+  border-left: 3px solid rgba(20, 80, 180, 0.8);
+  padding-left: 1rem;
+}
