@@ -1,13 +1,11 @@
-
----
 <div class="feature-lite" markdown>
 
 Flowers
 Generates realistic patches of flowers instead of chaotic, random scattering.
 
-```text
+​```text
 #flowers[frequency]
-```
+​```
 ![Flowers Pattern](images/patterns/flowers.png)
 `Basic Permissions: 1b1v.pattern.flowers`
 
@@ -18,9 +16,9 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 Grass
 Replaces the surface with `grass_block` and adds a `moss_block` border. The angle parameter limits the slope of the applied pattern.
 
-```text
+​```text
 #grass[id][angle]
-```
+​```
 ![Grass Pattern](images/patterns/grass.png)
 `Intermediate Permissions: 1b1v.pattern.grass`
 
@@ -31,9 +29,9 @@ Replaces the surface with `grass_block` and adds a `moss_block` border. The angl
 Ridgedmulti
 Ridged Multifractal (ridgedmulti) is a procedural noise pattern that generates sharp, narrow ridges separated by smooth, concave valleys
 
-```text
+​```text
 #ridgedmulti[size][id]
-```
+​```
 ![Ridgedmulti Pattern](images/patterns/ridgedmulti.png)
 `Basic Permissions: 1b1v.pattern.ridgedmulti`
 
