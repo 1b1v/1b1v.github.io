@@ -1,5 +1,5 @@
+<div class="feature-lite" markdown>
 
----
 Polygon
 Creates a polygon with a specified number of sides. The default value is 8.
 
@@ -8,10 +8,11 @@ Creates a polygon with a specified number of sides. The default value is 8.
 ```
 
 ![Polygon Command](images/commands/polygon.png)
-`Permission: 1b1v.selection.polygon`
+`Permission: 1b1v.region.polygon`
 
----
-<br>
+</div>
+
+<div class="feature-lite" markdown>
 
 Frame
 Creates a wireframe outline along the borders of the selection.
@@ -21,10 +22,11 @@ Creates a wireframe outline along the borders of the selection.
 ```
 
 ![Frame Command](images/commands/frame.png)
-`Permission: 1b1v.selection.frame`
+`Permission: 1b1v.region.frame`
 
----
-<br>
+</div>
+
+<div class="feature-lite" markdown>
 
 Platform
 Generates a flat horizontal platform within the selection.
@@ -34,10 +36,11 @@ Generates a flat horizontal platform within the selection.
 ```
 
 ![Frame Command](images/commands/platform.png)
-`Permission: 1b1v.selection.platform`
+`Permission: 1b1v.generation.platform`
 
----
-<br>
+</div>
+
+<div class="feature-lite" markdown>
 
 Center Vertical
 Finds the center of the selection and creates a vertical 1-block column from the bottom to the top.
@@ -49,8 +52,9 @@ Finds the center of the selection and creates a vertical 1-block column from the
 ![Frame Command](images/commands/centervertical.png)
 `Basic Permission: 1b1v.region.centervertical`
 
----
-<br>
+</div>
+
+<div class="feature-lite" markdown>
 
 Onion
 Creates an onion-shaped dome or organic structure inside the selection.
@@ -60,10 +64,11 @@ Creates an onion-shaped dome or organic structure inside the selection.
 ```
 
 ![Onion Command](images/commands/onion.png)
-`Basic Permission: 1b1v.generation.platform`
+`Basic Permission: 1b1v.generation.onion`
 
----
-<br>
+</div>
+
+<div class="feature-lite" markdown>
 
 Liana
 Generates a hanging liana or vine, where the curvature is determined by the sagging argument.
@@ -75,8 +80,9 @@ Generates a hanging liana or vine, where the curvature is determined by the sagg
 ![Liana Command](images/commands/liana.png)
 `Intermediate Permission: 1b1v.curve.liana`
 
----
-<br>
+</div>
+
+<div class="feature-lite" markdown>
 
 Wiki
 Provides a link to the documentation plugin.
@@ -86,3 +92,5 @@ Provides a link to the documentation plugin.
 ```
 
 `Basic Permission: 1b1v.use`
+
+</div>
