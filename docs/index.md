@@ -18,7 +18,7 @@ stripe and a `PRO` tag throughout this wiki.
 ---
 
 System Requirements:  
-Minecraft Version: 1.20.5+  
+Minecraft Version: 1.21.8+
 Java Version: Java 21+  
 Dependency: FastAsyncWorldEdit (FAWE) 2.13+
 
