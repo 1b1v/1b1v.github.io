@@ -8,7 +8,7 @@ and commands for precise geometry.
 System Requirements:  
 Minecraft Version: 1.21.8+
 Java Version: Java 21+  
-Dependency: FastAsyncWorldEdit (FAWE) 2.13+
+Dependency: FastAsyncWorldEdit (FAWE) 2.13.1+
 
 ---
 
