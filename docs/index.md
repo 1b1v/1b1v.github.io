@@ -5,18 +5,6 @@ and commands for precise geometry.
 
 ---
 
-1b1v is available in two editions:
-
-- **Lite** — free, includes the brush GUI, persistence system,
-  and a growing set of brushes, patterns, masks and commands.
-- **Pro** — a subscription-based edition that unlocks the Clipboard
-  system (12 buffer slots) and Macros, on top of everything in Lite.
-
-Features available only in the Pro edition are marked with a blue
-stripe and a `PRO` tag throughout this wiki.
-
----
-
 System Requirements:  
 Minecraft Version: 1.21.8+
 Java Version: Java 21+  
