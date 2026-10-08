@@ -2,7 +2,7 @@
 
 Brush GUI
 
-All brushes — built-in FAWE brushes, Arceon brushes (if Arceon is installed), and 1b1v brushes — are combined in a single GUI menu. It lets you manage your brushes: switch between them, adjust their settings, and save them as persistent so they survive a server restart.
+All brushes — FAWE, Arceon (if installed), and 1b1v — are combined in a single GUI menu. It lets you manage your brushes: switch between them, fine-tune them, and save them as persistent so they survive a server restart.
 
 The brush list shows key info for each brush — pattern, mask, size, and range. From here you can select a brush or remove it from the list.
 
