@@ -10,7 +10,8 @@ Brush List GUI
 ```text
 /1b1v brushes
 ```
-`Permission: 1b1v.use`
+![Plump Brush](images/brushes/menulist.png)
+`Basic Permission: 1b1v.use`
 
 Opening a brush from the list reveals its settings menu, where you can edit its pattern, mask, and size directly — no commands required. The same menu can also be opened instantly for the brush currently in your hand.
 
@@ -18,7 +19,8 @@ Brush Settings GUI
 ```text
 /1b1v brush
 ```
-`Permission: 1b1v.use`
+![Plump Brush](images/brushes/menusetting.png)
+`Basic Permission: 1b1v.use`
 
 </div>
 
