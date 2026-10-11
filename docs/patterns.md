@@ -14,7 +14,7 @@ Generates realistic patches of flowers instead of chaotic, random scattering.
 <div class="feature-lite" markdown>
 
 Grass
-Replaces the surface with `grass_block` and adds a `moss_block` border. The angle parameter limits the slope of the applied pattern.
+Replaces the surface with grass blocks and adds a moss border. Automatically adapts to slopes and cliffs.
 
 ```text
 #grass[id][angle]
