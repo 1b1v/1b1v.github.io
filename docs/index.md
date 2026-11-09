@@ -14,4 +14,9 @@ Dependency: FastAsyncWorldEdit (FAWE) 2.13+
 
 [ :fontawesome-brands-discord: Join our Discord ](https://discord.gg/5WmnrBXY9J){ .md-button .md-button--primary }
 
+[ :fontawesome-brands-discord: Modrinth ](https://modrinth.com/plugin/1b1v-lite){ .md-button .md-button--primary }
+
+[ :fontawesome-brands-discord: CurseForge ](https://www.curseforge.com/minecraft/bukkit-plugins/one-build-one-vision-lite){ .md-button .md-button--primary }
+
 <!-- [ :material-heart: Support on Boosty ](https://boosty.to/almarel){ .md-button } -->
+
